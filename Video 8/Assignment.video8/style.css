@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 50px;
+    background-color: green;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+main{
+    width: 100%;
+    position: relative;
+}
+.left{
+    width: 40%;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 0px auto;
+}
+.right{
+    width: 250px;
+    height: 400px;
+    background-color: purple;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 100%;
+    position: sticky;
+    bottom: 20px;
+    left: 90%;
+}
+footer{
+    height: 50px;
+    background-color: orange;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
